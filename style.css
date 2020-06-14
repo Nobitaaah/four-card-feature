@@ -1,0 +1,76 @@
+ .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+header{
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+h1{
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+h1 span{
+  font-weight: 600;
+  margin: 0;
+}
+p{
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+}
+h3{
+  color: hsl(234, 12%, 34%);
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1140px;
+   margin: 0 auto;
+   justify-content: center;
+}
+.box{
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.19) ; /* box-shadow : 0 15px 25px rgba(0,0,0,0.19) , 0 8px 8px rgba(0,0,0,0.25); */
+  padding : 35px;
+  margin: 15px;
+}
+.box img{
+  display: flex;
+  margin-left: auto;
+}
+.left-card{
+  border-top: 4px hsl(180, 62%, 55%) solid;
+  transform: translateY(50%);
+}
+.top-card{
+  border-top: 4px  hsl(0, 78%, 62%) solid;
+}
+.right-card{
+  border-top: 4px hsl(212, 86%, 64%) solid;
+  transform: translateY(50%);
+}
+.bottom-card{
+  border-top: 4px  hsl(34, 97%, 64%) solid;
+}
+.box:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
