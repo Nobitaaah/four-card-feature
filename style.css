@@ -74,3 +74,21 @@ h3{
   opacity: 0.8;
   cursor: pointer;
 }
+@media only screen and (max-width: 800px) {
+   span{
+        display: block;
+        font-size: 28px;
+    }
+    h1{
+        font-size: 26px;
+    }
+  .top-card{
+      transform: translateY(50%);
+  }
+  .bottom-card{
+      transform: translateY(50%);
+  }
+  .attribution{
+      transform: translateY(800%);
+  }
+}
